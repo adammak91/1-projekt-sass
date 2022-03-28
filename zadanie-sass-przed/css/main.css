@@ -10593,77 +10593,59 @@ th {
   box-sizing: border-box;
 }
 
-*
+/***/
+/*==========  3.2 - Base styles  ==========*/
 body {
   -webkit-font-smoothing: antialiased;
   font-size: 16px;
   color: #5b5b5b;
-  font-family: "Raleway, sans-serif";
+  font-family: "Raleway", sans-serif;
 }
 
-*
-body a, *
-body input, *
-body p {
-  font-family: "Archivo Black";
+body a, body input, body p {
+  font-family: "Archivo Black", sans-serif;
 }
 
-*
-body h1, *
-body h2, *
-body h3, *
-body h4, *
-body h5, *
-body h6 {
-  text-transform: uppercase;
+body h1, body h2, body h3, body h4, body h5, body h6 {
   color: #222222;
-  font-family: "Archivo Black";
+  font-family: "Archivo Black", sans-serif;
   margin-bottom: 24px;
   margin-top: 24px;
 }
 
-*
 body h1 {
   font-size: 49px;
 }
 
-*
 body h2 {
   font-size: 39px;
 }
 
-*
 body h3 {
   font-size: 31px;
 }
 
-*
 body h4 {
   font-size: 25px;
 }
 
-*
 body h5 {
   font-size: 20px;
 }
 
-*
 body h6 {
   font-size: 16px;
 }
 
-*
 body a {
   color: #a5e200;
   text-decoration: none;
 }
 
-*
 body a:hover {
   color: #88ba00;
 }
 
-*
 body .overlay {
   position: absolute;
   top: 0;
@@ -10674,17 +10656,14 @@ body .overlay {
   z-index: 10;
 }
 
-*
 body ul {
   padding: 0;
 }
 
-*
 body ul li {
   list-style: none;
 }
 
-*
 body ul li a {
   text-decoration: none;
 }
@@ -10910,7 +10889,7 @@ header.header-image .header-content .header-content-inner h5 {
   font-weight: 700;
   text-transform: uppercase;
   background-color: #f0f4dc;
-  font-family: "Raleway, sans-serif";
+  font-family: "Raleway", sans-serif;
   margin-left: 10px;
   padding-bottom: 10px;
   padding-top: 10px;
@@ -10934,7 +10913,7 @@ header.header-image .header-content .header-content-inner h5 {
   font-size: 13px;
   font-weight: 700;
   text-transform: uppercase;
-  font-family: "Raleway, sans-serif";
+  font-family: "Raleway", sans-serif;
 }
 
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
@@ -10948,7 +10927,6 @@ header.header-image .header-content .header-content-inner h5 {
 }
 
 .navbar-default .nav > li > a, .navbar-default .nav > li > a:focus {
-  text-transform: uppercase;
   font-size: 13px;
   font-weight: 700;
   color: #5b5b5b;
@@ -11031,7 +11009,7 @@ header.header-image .header-content .header-content-inner h5 {
     font-weight: 700;
     text-transform: uppercase;
     background-color: #f0f4dc;
-    font-family: "Raleway, sans-serif";
+    font-family: "Raleway", sans-serif;
     padding-top: 16px;
     padding-bottom: 16px;
     margin-left: 0;
@@ -11048,7 +11026,7 @@ header.header-image .header-content .header-content-inner h5 {
     font-size: 13px;
     font-weight: 700;
     text-transform: uppercase;
-    font-family: "Raleway, sans-serif";
+    font-family: "Raleway", sans-serif;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
     background-color: #f0f4dc;
@@ -11094,7 +11072,7 @@ header.header-image .header-content .header-content-inner h5 {
     font-size: 13px;
     font-weight: 700;
     text-transform: uppercase;
-    font-family: "Raleway, sans-serif";
+    font-family: "Raleway", sans-serif;
   }
   .navbar-default.affix .open .dropdown-menu > li > a:hover, .navbar-default.affix .open .dropdown-menu > li > a:focus {
     background-color: #f0f4dc;
@@ -11210,7 +11188,7 @@ header.header-image .header-content .header-content-inner h5 {
   width: 40px;
   height: 40px;
   font-size: 32px;
-  font-family: "Raleway, sans-serif";
+  font-family: "Raleway", sans-serif;
   line-height: 35.2px;
   margin: 0;
   z-index: 11;
@@ -11597,7 +11575,6 @@ header.header-image .header-content .header-content-inner h5 {
   color: #ffffff;
   background-color: #a5e200;
   border-color: #a5e200;
-  text-transform: uppercase;
   padding: 10px 12px;
   margin-bottom: 24px;
 }
@@ -11625,7 +11602,6 @@ header.header-image .header-content .header-content-inner h5 {
   color: #ffffff;
   background-color: #a5e200;
   border-color: #a5e200;
-  text-transform: uppercase;
   padding: 10px 12px;
 }
 
@@ -11728,9 +11704,8 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 
 .t108-page time {
   font-size: 20px;
-  font-family: "Archivo Black";
+  font-family: "Archivo Black", sans-serif;
   color: #222222;
-  text-transform: uppercase;
 }
 
 .t108-page figure {
@@ -11894,7 +11869,6 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
 
 .t108-one-page #portfolio {
   padding: 0;
-  text-transform: uppercase;
 }
 
 .t108-one-page #portfolio .col-lg-3 {
@@ -11964,18 +11938,21 @@ form fieldset input[name="comment"], form fieldset input[name="message"] {
   padding: 96px 0 24px;
 }
 
-.t108-one-page #counters-services .icon-services:hover {
+.t108-one-page #counters-services .icon-services {
   color: #a5e200;
   width: 72px;
   height: 72px;
   border-radius: 100%;
   line-height: 72px;
   border: 2px solid #a5e200;
-  -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
   -webkit-transition: .5s;
   transition: .5s;
   cursor: pointer;
+}
+
+.t108-one-page #counters-services .icon-services:hover {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
 }
 
 .t108-one-page #counters-services .counters-box {

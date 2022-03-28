@@ -100,7 +100,7 @@
 
 	#portfolio {
 		padding: $padding-none;
-        text-transform: $text-transform-base;
+        // text-transform: $text-transform-base;
 
 		.col-lg-3 {
             padding-left: $padding-none;
@@ -176,7 +176,7 @@
     
     
 
-        .icon-services:hover {
+        .icon-services {
             color: $color-primary;
             width: $base-font-size * 4.5;
             height: $base-font-size * 4.5;
@@ -184,9 +184,13 @@
             line-height: $base-font-size * 4.5;
             border: 2px solid $color-primary;
 
-            transform: rotate(-45deg);
-            transition: .5s;
+             transition: .5s;
             cursor: pointer;
+            &:hover{
+                transform: rotate(-45deg);
+           
+            
+            }
             
     
         }
