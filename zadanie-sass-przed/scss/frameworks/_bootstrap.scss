@@ -1411,7 +1411,10 @@ ol ol {
   padding-left: 0;
   margin-left: -5px;
   list-style: none;
-  font-size: 25px;
+  .btn-social i {
+    font-size: 25px;
+ }
+  
 }
 .list-inline > li {
   display: inline-block;
