@@ -17,6 +17,14 @@ body {
 		font-family: $font-secondary;
 		margin-bottom: $baseline;
 		margin-top: $baseline;
+
+
+	}
+	.counters-box {
+		h5 {
+			text-transform: uppercase;
+			font-weight: bold;
+		}
 	}
 
 	h1 {

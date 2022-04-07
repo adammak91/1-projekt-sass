@@ -10613,11 +10613,6 @@ body h1, body h2, body h3, body h4, body h5, body h6 {
   margin-top: 24px;
 }
 
-body .counters-box h5 {
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
 body h1 {
   font-size: 49px;
 }
